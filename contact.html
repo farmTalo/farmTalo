@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FarmTalo Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 30px;
+      text-align: center;
+    }
+    h1 {
+      color: #2e7d32;
+    }
+    .lang-toggle {
+      margin-bottom: 20px;
+    }
+    .lang-toggle button {
+      margin: 5px;
+      padding: 8px 16px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button[type=submit] {
+      background-color: #388e3c;
+      color: white;
+      padding: 10px 15px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .extra-pages {
+      margin-top: 30px;
+    }
+    .extra-pages a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      color: #2e7d32;
+      font-weight: bold;
+    }
+  </style>
+  <script>
+    function setLanguage(lang) {
+      const en = document.querySelectorAll('.en');
+      const so = document.querySelectorAll('.so');
+      en.forEach(e => e.style.display = lang === 'en' ? 'block' : 'none');
+      so.forEach(e => e.style.display = lang === 'so' ? 'block' : 'none');
+    }
+    window.onload = () => setLanguage('en');
+  </script>
+</head>
+<body>
+
+  <div class="lang-toggle">
+    <button onclick="setLanguage('en')">English</button>
+    <button onclick="setLanguage('so')">Soomaali</button>
+  </div>
+
+  <h1 class="en">Contact Us</h1>
+  <h1 class="so">Nala Soo Xiriir</h1>
+
+  <form action="https://formspree.io/f/mwkgbvne" method="POST">
+    <input type="text" name="name" placeholder="Your Name / Magacaaga" required>
+    <input type="email" name="email" placeholder="Your Email / Emailkaaga" required>
+    <textarea name="message" placeholder="Message / Fariintaada" rows="5" required></textarea>
+    <button type="submit" class="en">Send Message</button>
+    <button type="submit" class="so">Dir Fariin</button>
+  </form>
+
+  <div class="extra-pages">
+    <a href="index.html">🏠 Home</a>
+    <a href="gallery.html">📷 Gallery</a>
+    <a href="cv.html">📄 CV</a>
+    <a href="blog.html">📰 Blog</a>
+  </div>
+
+</body>
+</html>
