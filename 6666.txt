@@ -48,9 +48,10 @@
   <p>We offer agricultural advice and services to help farmers thrive.</p>
 
   <div class="contact">
-    <a href="mailto:farmtalo@example.com">📧 Email Us</a>
-    <a href="https://wa.me/252612345678" target="_blank">💬 WhatsApp</a>
+    <a href="mailto:sakiahmedsagaale@gmail.com>📧 Email Us</a>
+    <a href="https://wa.me/+2520907158025" target="_blank">💬 WhatsApp</a>
   </div>
 
 </body>
 </html>
+
