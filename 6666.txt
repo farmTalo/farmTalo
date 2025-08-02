@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FarmTalo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f9f9f9;
+    }
+
+    img.logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #2e7d32;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      color: #fff;
+      background-color: #388e3c;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      background-color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="66.png" alt="FarmTalo Logo" class="logo">
+  <h1>Welcome to FarmTalo</h1>
+  <p>We offer agricultural advice and services to help farmers thrive.</p>
+
+  <div class="contact">
+    <a href="mailto:farmtalo@example.com">📧 Email Us</a>
+    <a href="https://wa.me/252612345678" target="_blank">💬 WhatsApp</a>
+  </div>
+
+</body>
+</html>
